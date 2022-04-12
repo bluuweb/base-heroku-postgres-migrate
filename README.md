@@ -20,3 +20,10 @@ heroku git:remote -a dexter-555
 git push heroku master
 heroku run npm run migrate
 ```
+
+Ver y eliminar git remote
+
+```sh
+git remote -v
+git remote rm heroku
+```
