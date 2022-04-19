@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon .",
-    "migrate": "node -e \"require('./database/db.js').migrate()\""
+    "migrate": "node -e \"require('./database/db.js').migrate()\"",
+    "pruebaLogin": "node -e \"require('./database/db.js').pruebaLogin()\""
   },
   "keywords": [],
   "author": "",
